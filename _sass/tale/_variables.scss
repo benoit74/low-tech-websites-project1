@@ -1,7 +1,7 @@
 // Colors
 $default-color: #555;
 $default-shade: #353535;
-$default-tint: #aaa;
+$default-tint: #a80c35;
 $grey-1: #979797;
 $grey-2: #e5e5e5;
 $grey-3: #f9f9f9;
@@ -11,7 +11,7 @@ $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
 
 // Fonts
-$serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif;
+$sans-serif-primary: 'Montserrat', 'Times New Roman', Times, serif;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
 $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 $monospaced: Menlo, Monaco, monospace;
@@ -26,4 +26,26 @@ $monospaced: Menlo, Monaco, monospace;
   -webkit-transition: $args;
      -moz-transition: $args;
           transition: $args;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+
+    font-size: 15px;
+    font-family: $sans-serif-primary;
+}
+
+.button:hover {
+    color: #000;
+    background-color: #ccc;
 }

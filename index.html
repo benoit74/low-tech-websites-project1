@@ -1,4 +1,45 @@
 ---
 layout: home
-title: Home
+title: "Home"
 ---
+<div id="home" class="homepage">
+    <header>
+    </header>
+    <div id="why">
+        <p>Nous croyons à un autre modèle de société.</p>
+        <p>A la différence d’organisations qui réduisent l’Homme et les écosystèmes à des ressources, ce sont l’équité,
+            l'expérimentation et la liberté qui nous animent.</p>
+        <p>Aujourd’hui et pour demain nous essaimons d’autres façons de faire.</p>
+    </div>
+
+    {% include associates.html %}
+
+    <div id="contact">
+        <h3>CONTACT</h3>
+        <div class="contact-container">
+            <form action="https://mailthis.to/kleis" enctype="multipart/form-data" method="POST">
+                <p><input name="name" placeholder="Nom" required="" type="text"></p>
+                <p><input name="_replyto" placeholder="Email" required="" type="email"></p>
+                <p><input name="_subject" placeholder="Objet" required="" type="text"></p>
+                <p><input name="message" placeholder="Message" required="" rows="4" type="text"></p>
+                <input name="_after" type="hidden" value="https://www.kleis.ch/">
+                <input name="_honeypot" type="hidden" value="">
+                <input name="_confirmation" type="hidden" value="Merci pour votre email">
+                <p>
+                    <button class="button" type="submit">
+                        <i class="fa fa-paper-plane"></i> ENVOYER
+                    </button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <div class="home-footer">
+        <a class="button" href="#home"><i class="fa fa-arrow-up w3-margin-right"></i> Top </a>
+        <div class="linkedin">
+            <a class="button" href="https://www.linkedin.com/company/kleis-technology/">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+
+</div>

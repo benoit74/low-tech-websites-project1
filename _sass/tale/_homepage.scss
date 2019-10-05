@@ -1,0 +1,120 @@
+
+.homepage {
+
+    header {
+        background-position: center;
+        background-size: 35% auto;
+        background-repeat: no-repeat;
+        background-image: url($baseurl + "/assets/kleis-logo.svg");
+        height: 100vh;
+    }
+
+    #why, #contact {
+        background-color: $default-tint;
+        color: white;
+        padding: 128px 16px;
+    }
+
+    #why {
+        box-shadow: inset 0 0 10px #000000;
+
+        p {
+            font-size: 1.8rem;
+            color: white;
+            font-style: italic;
+            font-weight: 700;
+            text-align: center;
+            padding: 0 10%;
+        }
+    }
+
+    #team {
+        padding:128px 16px;
+
+        h3 {
+            text-align: center;
+            font-family: $sans-serif-primary;
+            font-weight: 400;
+            font-size: 24px;
+        }
+
+        .associates {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap : wrap;
+            max-width: 1192px;
+            margin: 64px auto 0;
+        }
+
+        .card {
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+            max-width: 376px;
+            margin: 8px 0;
+
+            img {
+                margin: 0;
+            }
+
+            .card-content {
+                padding: 16px;
+            }
+            h3 {
+                margin: 0;
+                text-align: left;
+            }
+            .card-sub-title {
+                opacity: 0.6;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    #contact {
+
+        h3 {
+            color: white;
+            text-align: center;
+            font-family: $sans-serif-primary;
+            font-weight: 400;
+            font-size: 24px;
+        }
+
+        form {
+            max-width: 1192px;
+            margin: 36px auto;
+        }
+
+        input {
+            border: 1px solid #ccc;
+            padding: 8px;
+            display: block;
+            width: 100%;
+            overflow: visible;
+            font-size: 15px;
+            font-family: $sans-serif-primary;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            color: #000;
+            background-color: #fff;
+        }
+    }
+    .home-footer {
+        text-align: center;
+        font-family: $serif-secondary;
+        padding: 2rem 0 0;
+        .linkedin {
+                 a {
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                    font-size: 24px;
+                 }
+        }
+    }
+}

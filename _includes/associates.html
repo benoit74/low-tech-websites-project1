@@ -1,0 +1,18 @@
+{% assign associates = site.associates | sort: 'last_name' %}
+<div id="team">
+    <h3>Ceux qui font Kleis</h3>
+    <div class="associates">
+    {% for associate in associates %}
+        <div class="card">
+            <img alt="{{ associate.name }}" height="376" width="376" src="/assets/team/{{ associate.short_name }}.jpg">
+            <div class="card-content">
+                <h3>{{ associate.name }}</h3>
+                <p class="card-sub-title">{{ associate.position }}</p>
+                <p>
+                    {{ associate.content | markdownify }}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

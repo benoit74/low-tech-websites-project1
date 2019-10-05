@@ -1,17 +1,16 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Kleis
+description:    "Kleis Technology SA"
+url:            "https://www.kleis.ch"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Kleis Technology SA
+  url:          https://www.kleis.ch
+  email:        info@kleis.ch
 
 # Build settings
 markdown:       kramdown
@@ -30,9 +29,15 @@ plugins:
   - jekyll-seo-tag
   # - jemoji #Uncomment this to allow emoji in your post
 
+collections:
+  associates:
+
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink:      /:year-:month-:day/:title.html
 paginate:       5
+paginate_path:  /blog/page:num/
+
+lang: fr
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
