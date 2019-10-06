@@ -5,4 +5,7 @@ author: "Alban"
 ---
 
 Suivant la tradition, voici notre billet 'Hello World'. 
-Kleis Technology est née d'une utopie.
+
+Kleis Technology est une utopie. 
+
+Nous allons essayer de vous raconter notre histoire et nos experiences techniques et humaines. 

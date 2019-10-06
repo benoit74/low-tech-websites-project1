@@ -4,7 +4,7 @@ description:    "Kleis Technology SA"
 url:            "https://www.kleis.ch"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: UA-148727142-1
 
 # Author
 author:
@@ -27,7 +27,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-admin
   # - jemoji #Uncomment this to allow emoji in your post
 
 collections:
