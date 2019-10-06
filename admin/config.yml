@@ -1,6 +1,6 @@
 backend:
   name: gitlab
-  repo: albanseurat/tale
+  repo: albanseurat/website
   auth_type: implicit
   app_id: c436bc466b3344348154b85b99100d58dcbe5742c240a576051360274873ca3f
 collections:
