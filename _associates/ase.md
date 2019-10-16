@@ -2,7 +2,7 @@
 short_name: ase
 name: Alban Seurat
 last_name: Seurat
-position: Associé fondateur - Père Noel
+position: Associé fondateur
 ---
 Alban dispose de plus de 20 ans d'expérience dans la conception, 
 la réalisation et l’audit de systèmes d’information. 
