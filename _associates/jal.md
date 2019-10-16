@@ -1,7 +1,7 @@
 ---
 short_name: jal
-name: Jessica Alvione
-last_name: Alvione
+name: Jessica Allevione
+last_name: Allevione
 position: Associée fondatrice - Unicorn Office Manager
 ---
 Tour à tour traductrice, assistante socio-éducative, ou encore responsable administrative, 
