@@ -7,7 +7,7 @@ The website is based on Jekyll and Tale
 1. install gems
 
 ```` sh
-docker run --rm -ti --workdir '/code' -v "${PWD}:/code" -v "${PWD}/.gems:/usr/local/bundle" -p "4000:4000" mathieubrun/jekyll:latest 
+docker run --rm -ti --workdir '/code' -v "${PWD}:/code" -v "${PWD}/.gems:/usr/local/bundle" -p "4000:4000" mathieubrun/jekyll:latest install
 ````
 
 2. local run : 
