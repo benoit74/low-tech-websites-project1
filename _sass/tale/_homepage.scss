@@ -53,6 +53,11 @@
 
             img {
                 margin: 0;
+                display: inline;
+            }
+
+            img.fun {
+                display: none;
             }
 
             .card-content {
@@ -67,6 +72,17 @@
             }
             p {
                 font-size: 15px;
+            }
+        }
+
+        .card:hover {
+            img {
+                display: none;
+            }
+
+            img.fun {
+                margin: 0;
+                display: inline;
             }
         }
     }

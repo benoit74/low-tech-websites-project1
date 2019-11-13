@@ -4,7 +4,8 @@
     <div class="associates">
     {% for associate in associates %}
         <div class="card">
-            <img alt="{{ associate.name }}" height="376" width="376" src="/assets/team/{{ associate.short_name }}.jpg">
+            <img alt="{{ associate.name }}" height="376" width="376" src="assets/team/{{ associate.short_name }}.jpg">
+            <img alt="{{ associate.name }}" height="376" width="376" src="assets/team/{{ associate.short_name }}_fun.jpg" class="fun">
             <div class="card-content">
                 <h3>{{ associate.name }}</h3>
                 <p class="card-sub-title">{{ associate.position }}</p>

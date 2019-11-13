@@ -2,17 +2,27 @@
 
 The website is based on Jekyll and Tale
 
-### to deploy manually (for now) on infomaniak 
+## to test locally
+ 
+1. install gems
 
- - clone the repository 
- 
- - install jekyll (docker or find a tutorial on internet) 
- 
- - build the website 
- 
-        JEKYLL_ENV=production bundle exec jekyll build
- 
- - copy the content of _site directory to in the destination server
+```` sh
+docker run --rm -ti --workdir '/code' -v "${PWD}:/code" -v "${PWD}/.gems:/usr/local/bundle" -p "4000:4000" mathieubrun/jekyll:latest install
+````
+
+2. local run : 
+```` sh
+docker run --rm -ti --workdir '/code' -v "${PWD}:/code" -v "${PWD}/.gems:/usr/local/bundle" -p "4000:4000" mathieubrun/jekyll:latest
+````
+
+## to deploy manually (for now) on infomaniak 
+
+3. local build
+```` sh
+docker run --rm -ti --workdir '/code' -v "${PWD}:/code" -v "${PWD}/.gems:/usr/local/bundle" -p "4000:4000" mathieubrun/jekyll:latest exec jekyll build
+````
+
+4. copy the content of _site directory to in the destination server
  
 
 ## License
