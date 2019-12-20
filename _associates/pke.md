@@ -4,7 +4,6 @@ name: Philippe Kernévez
 last_name: Kernévez
 position: Associé fondateur
 ---
-Fort de l'expertise acquise sur un large spectre de projets 
-et de multiple refontes applicatives, 
-Philippe mène des missions d'audit, d'amélioration 
-et d'accompagnement des équipes et des SI.
+Entre ses activités d’archéologue du legacy et d’explorateur des derniers frameworks JS à la mode, Philippe trouve encore le temps de naviguer. 
+Marin émérite, il maintient le cap par tous les temps. 
+Dans le cloud et sur la vague digitale, nous pouvons toujours compter sur lui pour nous orienter dans la bonne direction.
