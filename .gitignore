@@ -6,5 +6,6 @@ _site
 Gemfile.lock
 .idea
 .jekyll-cache
+.jekyll-metadata
 .gems
 /.project
